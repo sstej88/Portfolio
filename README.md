@@ -117,3 +117,7 @@
 > <img width="1440" alt="desktop" src="https://user-images.githubusercontent.com/113054762/215279408-16bfd725-bb27-4afc-9633-30559d2f1e5c.png">
 > <img width="1440" alt="mobile" src="https://user-images.githubusercontent.com/113054762/215279421-39dcae72-1f8a-435a-962c-2556b9c65440.png">
 * Figure 11 and Figure 12
+# Creative Approaches For the Website - For Bonus points
+* Mobile First Approach - In this website, I have used mobile first approach which means I have designed the website for the mobile screens first and then optimized to desktop screens. This is the latest approach followed by the IT industry currently.
+* Rich UI - In this portfolio designing, I used UI such as cards, layouts, tables as layouts and viewport heights and viewport widths to describe the elements in the website.
+* Latest Navbar - Usually whenever the designing concept comes into anyone's mind, they always think that navbar should be on top. However, in my webiste, I gave space to header first showing my information to the user all the time and then defined the navbar after the header. This gives the feeling for the user that he/she is in the website which describes completely for me (Sai Tej Sunkara). This will fulfil the actual motive of the portfolio.
