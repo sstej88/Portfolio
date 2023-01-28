@@ -9,8 +9,8 @@
 ### Float/Overflow Property
 * In the website, we have a section called as navbar. This shows the navigation links of the webpage and on clicking, it moves onto the page. However, All these sections are kept in a nav tag and overflow is kept as hidden so that it doesn't slip the webpage to extend to rightside of screen whenever user checks in a smaller resolution screens
 > overflow: hidden;
-<img width="1440" alt="nav1" src="https://user-images.githubusercontent.com/113054762/215277854-b8f04bec-ad3b-45a0-867b-d440fbc4e3af.png">
-<img width="1440" alt="nav2" src="https://user-images.githubusercontent.com/113054762/215277862-b75300a0-bbd8-4496-b414-7fd715dc6bd3.png">
+> <img width="1440" alt="nav1" src="https://user-images.githubusercontent.com/113054762/215277854-b8f04bec-ad3b-45a0-867b-d440fbc4e3af.png">
+> <img width="1440" alt="nav2" src="https://user-images.githubusercontent.com/113054762/215277862-b75300a0-bbd8-4496-b414-7fd715dc6bd3.png">
 * Figure 1 and Figure 2
 ### Using Column Layout
 > In the frameworks like bootstrap, they provide a column layout to produce a responsive layout in a webpage. However, in this assignment, we are restricted to use the bootstrap. So I have created a column layout using vh and vw heights and widths.
