@@ -121,3 +121,5 @@
 * Mobile First Approach - In this website, I have used mobile first approach which means I have designed the website for the mobile screens first and then optimized to desktop screens. This is the latest approach followed by the IT industry currently.
 * Rich UI - In this portfolio designing, I used UI such as cards, layouts, tables as layouts and viewport heights and viewport widths to describe the elements in the website.
 * Latest Navbar - Usually whenever the designing concept comes into anyone's mind, they always think that navbar should be on top. However, in my webiste, I gave space to header first showing my information to the user all the time and then defined the navbar after the header. This gives the feeling for the user that he/she is in the website which describes completely for me (Sai Tej Sunkara). This will fulfil the actual motive of the portfolio.
+> <img width="1440" alt="Navbar under header" src="https://user-images.githubusercontent.com/113054762/215279891-7b82ad39-a35f-4565-a242-cd7e009eaa03.png">
+### Thank You.
