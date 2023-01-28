@@ -63,3 +63,12 @@
 > <img width="1440" alt="ImageGallery" src="https://user-images.githubusercontent.com/113054762/215279000-398d2f61-da49-45f2-99e1-9abe606d3b1b.png">
 > <img width="1440" alt="ImageGallery2" src="https://user-images.githubusercontent.com/113054762/215279012-2a35ce26-9ee9-4782-9147-00d1b84d54f7.png">
 * Firgure 9 and Figure 10
+### Using HTML and HTML5 Elements
+> In this website, I have used only HTML and HTML5 elements which are supported by browsers such as <head> <link> <meta> <h1> etc.
+> I have also used the advanced div and span tags in the portfolio
+### Responsive website
+> As the given statements in the assignment, I have made the website responsive to every device in the developer tools. For this, I have used the media queries whenever required and achieved the responsiveness of the website.
+> For example, I have used the below stated media queries in the portfolio portal to achieve the actual required output in the desktop screen. Here I have used the mobile first approach. So those tags are perfectly used for the mobile screens as well as for desktop screens.
+> <img width="1440" alt="desktop" src="https://user-images.githubusercontent.com/113054762/215279408-16bfd725-bb27-4afc-9633-30559d2f1e5c.png">
+> <img width="1440" alt="mobile" src="https://user-images.githubusercontent.com/113054762/215279421-39dcae72-1f8a-435a-962c-2556b9c65440.png">
+* Figure 11 and Figure 12
