@@ -64,11 +64,56 @@
 > <img width="1440" alt="ImageGallery2" src="https://user-images.githubusercontent.com/113054762/215279012-2a35ce26-9ee9-4782-9147-00d1b84d54f7.png">
 * Firgure 9 and Figure 10
 ### Using HTML and HTML5 Elements
-> In this website, I have used only HTML and HTML5 elements which are supported by browsers such as <head> <link> <meta> <h1> etc.
+> In this website, I have used only HTML and HTML5 elements which are supported by browsers such as head, link, meta, h1 etc.
 > I have also used the advanced div and span tags in the portfolio
 ### Responsive website
 > As the given statements in the assignment, I have made the website responsive to every device in the developer tools. For this, I have used the media queries whenever required and achieved the responsiveness of the website.
 > For example, I have used the below stated media queries in the portfolio portal to achieve the actual required output in the desktop screen. Here I have used the mobile first approach. So those tags are perfectly used for the mobile screens as well as for desktop screens.
+> @media only screen and (max-width: 900px) {
+>    .profileTitle {
+>        margin: 10vh 0vh 0vh 0vh;
+>        font-family: 20px;
+>    }
+>    #mrTag {
+>        font-size: 20px;
+>    }
+>    .aboutTableDesktop {
+>        display: flex;
+>        flex-wrap: wrap;
+>    }
+>    .aboutTableDesktop td {
+>        padding: 0px;
+>        width: 50vw;
+>        text-justify: newspaper;
+>    }
+>    .aboutCard {
+>        height: 50vh;
+>    }
+>    .noMobileDisplay {
+>        display: none;
+>    }
+>    .educationCard {
+>        height: 50vh;
+>        width: 80vw;
+>    }
+>    .logo {
+>        height: 50px;
+>        width: 50px;
+>        margin: 10px;
+>        border-radius: 5px;
+>        cursor: pointer;
+>        transition: all 0.3s ease-in-out;
+>    }
+>    .logo:hover {
+>        height: 30px;
+>        width: 30px;
+>        box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+>        transition: all 0.3s ease-in-out;
+>    }
+>    .contactCard {
+>        height: 30vh;
+>    }
+> }
 > <img width="1440" alt="desktop" src="https://user-images.githubusercontent.com/113054762/215279408-16bfd725-bb27-4afc-9633-30559d2f1e5c.png">
 > <img width="1440" alt="mobile" src="https://user-images.githubusercontent.com/113054762/215279421-39dcae72-1f8a-435a-962c-2556b9c65440.png">
 * Figure 11 and Figure 12
