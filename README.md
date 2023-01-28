@@ -16,32 +16,32 @@
 > In the frameworks like bootstrap, they provide a column layout to produce a responsive layout in a webpage. However, in this assignment, we are restricted to use the bootstrap. So I have created a column layout using vh and vw heights and widths.
 > For example, lets check the card columns I have created for this webpage
 > .headerCard {
-    width: 99vw;
-    height: 30vh;
-}
-.profileCard {
-    width: 20vh;
-    height: 20vh;
-}
+> width: 99vw;
+> height: 30vh;
+> }
+> .profileCard {
+> width: 20vh;
+> height: 20vh;
+> }
 > This provides the below columns
-<img width="1440" alt="columns" src="https://user-images.githubusercontent.com/113054762/215278016-52da3eb9-3652-4893-a5b6-735b2ca0c9d9.png"> 
+> <img width="1440" alt="columns" src="https://user-images.githubusercontent.com/113054762/215278016-52da3eb9-3652-4893-a5b6-735b2ca0c9d9.png"> 
 * Figure 3
 ### Usage of Absolute and Relative layouts whenever required.
 > In the entire application, we have used absolute and relative layouts whenever needed by the design.
 > For example, in header section, we have something known as profile card. This card displays the profile picture of mine and that profile picture should be displayed in absolute position to the header card.
 > So, to use that we have used a following properties in CSS,
 > .profileCard {
-    position: absolute;
-    width: 20vh;
-    height: 20vh;
-    background-image: url(../assets/profile.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin: 20vh 0vh 0 10vh;
-}
+> position: absolute;
+> width: 20vh;
+> height: 20vh;
+> background-image: url(../assets/profile.png);
+> background-size: cover;
+> background-position: center;
+> background-repeat: no-repeat;
+> margin: 20vh 0vh 0 10vh;
+> }
 > This has provided a following output.
-<img width="1440" alt="profile pic" src="https://user-images.githubusercontent.com/113054762/215278268-8cc2c33a-c4e5-4ca4-a1a0-fcd566e73d11.png">
+> <img width="1440" alt="profile pic" src="https://user-images.githubusercontent.com/113054762/215278268-8cc2c33a-c4e5-4ca4-a1a0-fcd566e73d11.png">
 * Figure 4
 ### Using Tel, Mailto options in Contact Box
 > In the application, we have something known as tel and mailto hrefs in anchor tags. In the contact information box, we have various images which leads to contact me from the person viewing the portfolio. There we have used these.
@@ -49,12 +49,17 @@
 > href="tel:+18573761538"
 > href="https://github.com/sstej88"
 > href="https://linkedin.com/in/sstej88"
-<img width="1275" alt="contact box" src="https://user-images.githubusercontent.com/113054762/215278507-378079b7-84af-4c14-958b-5be7f48fdd45.png">
-<img width="1440" alt="mailto" src="https://user-images.githubusercontent.com/113054762/215278512-288ca426-3d1d-4488-91bb-4d992d20c532.png">
+> <img width="1275" alt="contact box" src="https://user-images.githubusercontent.com/113054762/215278507-378079b7-84af-4c14-958b-5be7f48fdd45.png">
+> <img width="1440" alt="mailto" src="https://user-images.githubusercontent.com/113054762/215278512-288ca426-3d1d-4488-91bb-4d992d20c532.png">
 * Figure 5 and Figure 6
 ### Using CSS Selectors
 > CSS selectors are the precedency operators which will guide the webpage to render the correct output as required by the developer.
 > There are slectors used in our application such as :hover, .class element, element .class, etc.
-<img width="1440" alt="selectors 1" src="https://user-images.githubusercontent.com/113054762/215278766-14f8e137-f058-496b-b71c-212b0b04a7dc.png">
-<img width="1440" alt="selectors 2" src="https://user-images.githubusercontent.com/113054762/215278772-e89d6f85-768d-486f-9a55-3d5382008c67.png">
+> <img width="1440" alt="selectors 1" src="https://user-images.githubusercontent.com/113054762/215278766-14f8e137-f058-496b-b71c-212b0b04a7dc.png">
+> <img width="1440" alt="selectors 2" src="https://user-images.githubusercontent.com/113054762/215278772-e89d6f85-768d-486f-9a55-3d5382008c67.png">
 * Figure 7 and Figure 8
+### Professional Image Gallery - Containing hover effects, captions
+> In the achievements section, we have a displayed portfolio, which contains the certificates and team of mine right back during my internship days. I have included them using the image tags and has given various effects through container, hover tags, horizontal and vertical flex with wraps and box shadows.
+> <img width="1440" alt="ImageGallery" src="https://user-images.githubusercontent.com/113054762/215279000-398d2f61-da49-45f2-99e1-9abe606d3b1b.png">
+> <img width="1440" alt="ImageGallery2" src="https://user-images.githubusercontent.com/113054762/215279012-2a35ce26-9ee9-4782-9147-00d1b84d54f7.png">
+* Firgure 9 and Figure 10
