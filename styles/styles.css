@@ -1,0 +1,209 @@
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+footer {
+    text-align: center;
+}
+nav {
+    overflow: hidden;
+    background-color: #030126;
+    float: inherit;
+}  
+nav a {
+    float: left;
+    display: block;
+    color: #d2d1e8;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+nav a:hover {
+    background-color: #5c54c4;
+    color: #ffffff;
+} 
+.greatCard {
+    background-color: #eaddf0;
+    border-radius: 10px;
+}
+.centerButton {
+    text-align: center;
+    padding-top: 30px;
+    float: left;
+}
+.headerCard {
+    width: 99vw;
+    height: 30vh;
+    background-image: url(../assets/office.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.profileCard {
+    position: absolute;
+    width: 20vh;
+    height: 20vh;
+    background-image: url(../assets/profile.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 20vh 0vh 0 10vh;
+}
+.profileTitle {
+    margin: 10vh 0vh 0vh 6vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+#mrTag {
+    font-size: 15px;
+}
+.aboutCard {
+    height: 30vh;
+    background-color: #010852;
+    border-radius: 10px;
+    color: #a6adff;
+    padding: 30px;
+    width: 80vw;
+    transition: all 0.3s ease-in-out;
+}
+.aboutCard:hover {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    transition: all 0.3s ease-in-out;
+}
+.aboutTableDesktop {
+    display: flex;
+}
+.aboutTableDesktop td {
+    padding: 100px;
+    width: 50vw;
+    text-justify: newspaper;
+}
+.noPad {
+    padding: 0 10px 0 10px !important;
+}
+.heavyText {
+    font-size: 20px;
+    text-align: justify;
+    text-justify: auto;
+}
+.educationCard {
+    height: 30vh;
+    background-color: #730231;
+    border-radius: 10px;
+    color: #fa9dc4;
+    padding: 30px;
+    transition: all 0.3s ease-in-out;
+}
+.educationCard:hover {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    transition: all 0.3s ease-in-out;
+}
+.educationLogo {
+    width: 15vw;
+    margin: 25px;
+}
+.programmingLogo {
+    width: 40vw;
+}
+.educationText {
+    margin: 4vw;
+}
+.flexDisplay {
+    display: flex;
+}
+.educationTitle {
+    font-size: 15px;
+    text-transform: capitalize;
+}
+.contactCard {
+    height: 40vh;
+    width: 80vw;
+    background-color: #4a3803;
+    border-radius: 10px;
+    color: #edd58c;
+    padding: 30px;
+    transition: all 0.3s ease-in-out;
+}
+.contactCard:hover {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    transition: all 0.3s ease-in-out;
+}
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+.skillsCard {
+    height: 40vh;
+    background-color: #400152;
+    border-radius: 10px;
+    color: #d791eb;
+    padding: 30px;
+    transition: all 0.3s ease-in-out;
+}
+.logo {
+    height: 150px;
+    width: 150px;
+    margin: 0px 20px 0px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.logo:hover {
+    height: 160px;
+    width: 160px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    transition: all 0.3s ease-in-out;
+}
+.skillsCard:hover {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    transition: all 0.3s ease-in-out;
+}
+@media only screen and (max-width: 900px) {
+    .profileTitle {
+        margin: 10vh 0vh 0vh 0vh;
+        font-family: 20px;
+    }
+    #mrTag {
+        font-size: 20px;
+    }
+    .aboutTableDesktop {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .aboutTableDesktop td {
+        padding: 0px;
+        width: 50vw;
+        text-justify: newspaper;
+    }
+    .aboutCard {
+        height: 50vh;
+    }
+    .noMobileDisplay {
+        display: none;
+    }
+    .educationCard {
+        height: 50vh;
+        width: 80vw;
+    }
+    .logo {
+        height: 50px;
+        width: 50px;
+        margin: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+    }
+    .logo:hover {
+        height: 30px;
+        width: 30px;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+        transition: all 0.3s ease-in-out;
+    }
+    .contactCard {
+        height: 30vh;
+    }
+}

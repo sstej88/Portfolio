@@ -1,0 +1,112 @@
+.greatCard {
+    background-color: #f5c9c9;
+}
+.aboutCard {
+    margin: 30px;
+    max-width: 90vw;
+}
+.container {
+    display: flex;
+    max-width: 99vw;
+    overflow-x: scroll;
+    width: 100%;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+@media only screen and (min-width: 900px) {
+    .logoImg1 {
+        position: relative;
+        width: 300px;
+        margin: 20px;
+        object-fit: cover;
+        object-position: bottom;
+        border-radius: 10px;
+        justify-content: center;
+        transition: all 0.3s ease-in-out;
+        cursor: pointer;
+    }
+    .logoImg1:hover {
+        width: 900px;
+        border-radius: 15px;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    .logoImg2 {
+        position: relative;
+        width: 300px;
+        margin: 20px;
+        object-fit: cover;
+        object-position: bottom;
+        border-radius: 10px;
+        justify-content: center;
+        transition: all 0.3s ease-in-out;
+        cursor: pointer;
+    }
+    .logoImg2:hover {
+        border-radius: 15px;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    .logoImg3 {
+        position: relative;
+        width: 300px;
+        object-fit: cover;
+        object-position: bottom;
+        border-radius: 10px;
+        justify-content: center;
+        transition: all 0.3s ease-in-out;
+        cursor: pointer;
+    }
+    .logoImg3:hover {
+        border-radius: 15px;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    .logoImg4 {
+        position: relative;
+        width: 300px;
+        margin: 20px;
+        object-fit: cover;
+        object-position: bottom;
+        border-radius: 10px;
+        justify-content: center;
+        transition: all 0.3s ease-in-out;
+        cursor: pointer;
+    }
+    .logoImg4:hover {
+        width: 900px;
+        border-radius: 15px;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+        transition: all 0.3s ease-in-out;
+    }   
+}
+.aboutCard {
+    height: 10vh;
+    text-align: center;
+    width: 96%;
+}
+@media only screen and (max-width: 900px) {
+    .aboutCard {
+        max-width: 65vw;
+    }
+    img {
+        position: relative;
+        width: 300px;
+        margin: 0px;
+        object-fit: cover;
+        object-position: bottom;
+        border-radius: 10px;
+        justify-content: center;
+        transition: all 0.3s ease-in-out;
+        cursor: pointer;
+    }
+    .container {
+        display:block;
+        flex-wrap: wrap;
+        margin: 20px;
+    }
+}
