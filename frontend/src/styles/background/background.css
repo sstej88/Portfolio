@@ -30,6 +30,13 @@
   color: #dbf5f0;
 }
 
-.textSecondaryDark {
+.textSecondaryDark, .clickableText {
   color: #a4e5e0;
+}
+
+.clickableText {
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-color: #a4e5e0;
+  text-underline-offset: 3px;
 }/*# sourceMappingURL=background.css.map */

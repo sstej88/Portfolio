@@ -32,3 +32,10 @@
 .textSecondaryDark {
     color: $secondary-dark;
 }
+.clickableText {
+    @extend .textSecondaryDark;
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: $secondary-dark;
+    text-underline-offset: 3px;
+}
