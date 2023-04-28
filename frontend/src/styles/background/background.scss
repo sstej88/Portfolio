@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant&display=swap');
+@import '../colors/colors.scss';
+
+* {
+    font-family: 'Assistant', sans-serif;
+}
+
+.bgInOne {
+    background-image: url('../../assets/bgOneC.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.profilePicture {
+    height: 300px;
+    width: 300px;
+    border-radius: 50% !important;
+    margin-top: 20vh;
+}
+
+.textPrimaryLight {
+    color: $primary-light;
+}
+.textPrimaryDark {
+    color: $primary-dark;
+}
+.textSecondaryLight {
+    color: $secondary-light;
+}
+.textSecondaryDark {
+    color: $secondary-dark;
+}
